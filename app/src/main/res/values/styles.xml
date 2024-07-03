@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ベースアプリケーションテーマ -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- プライマリカラー -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- ステータスバーとナビゲーションバーのカラー -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <!-- アクションバーのスタイル -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- カスタムフォントの適用 -->
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- アクションバーのカスタムスタイル -->
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- アクションバーのタイトルテキストスタイル -->
+    <style name="MyActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- ボタンのカスタムスタイル -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>
+

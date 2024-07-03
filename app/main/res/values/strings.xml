@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boat Race Prediction</string>
+    <string name="main_activity_title">Select Venue</string>
+    <string name="race_activity_title">Select Race</string>
+    <string name="prediction_activity_title">Prediction Result</string>
+    <string name="prediction_default_text">予測結果がここに表示されます</string>
+</resources>
