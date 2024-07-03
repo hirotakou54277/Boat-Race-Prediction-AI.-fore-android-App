@@ -1,6 +1,8 @@
 # Boat Race Prediction App
 We are developing AI forecasting software for boat races that runs on android. It is still in the process of production.
 This project is a Boat Race Prediction App built using Android and TensorFlow. The app predicts the outcomes of boat races based on various input features using a trained machine learning model.
+AI Model Results　Recovery Rate: 87.70%, Win Rate: 19.34%.
+These are the results for six months with 300 yen 
 
 ## Features
 
@@ -83,7 +85,8 @@ If you have any questions or suggestions, please feel free to contact me at [pot
 
 # ボートレース予想アプリ
 androidで動作するボートレースのAI予想ソフトを開発中です。まだ製作途中です。
-このプロジェクトは、AndroidとTensorFlowを使って作られたボートレース予測アプリです。このアプリは、訓練された機械学習モデルを使用して、様々な入力特徴に基づいてボートレースの結果を予測します。
+このプロジェクトは、AndroidとTensorFlowを使って作られたボートレース予測アプリです。このアプリは、訓練された機械学習モデルを使用して、様々な入力特徴に基づいてボートレースの結果を予測します。AIモデルの結果 回収率 87.70%、勝率 19.34%.
+１レース300円購入で半年間の成績です。
 
 ## 特徴
 
